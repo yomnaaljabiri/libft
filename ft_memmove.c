@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_memmove.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: yaljabir <yaljabir@student.42amman.com>    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/10/23 12:39:52 by yaljabir          #+#    #+#             */
+/*   Updated: 2026/10/23 12:39:52 by yaljabir         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
@@ -16,3 +28,15 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 		ft_memcpy(dest, src, n);
 	return (dest);
 }
+/*
+#include <stdio.h>
+
+int	main(void)
+{
+	char	str[] = "ABCDE";
+
+	ft_memmove(str + 2, str, 3);
+	printf("%s\n", str);
+	return (0);
+}
+*/

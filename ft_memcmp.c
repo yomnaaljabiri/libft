@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_memcmp.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: yaljabir <yaljabir@student.42amman.com>    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/10/23 16:13:07 by yaljabir          #+#    #+#             */
+/*   Updated: 2026/10/23 16:13:07 by yaljabir         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
@@ -17,3 +29,17 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
+/*
+#include <stdio.h>
+
+int	main(void)
+{
+	char	s1[] = "ABC";
+	char	s2[] = "ABD";
+
+	printf("Compare 3 bytes: %d\n", ft_memcmp(s1, s2, 3));
+	printf("Compare 2 bytes: %d\n", ft_memcmp(s1, s2, 2));
+	return (0);
+}
+
+*/

@@ -13,3 +13,19 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
+/*
+#include <stdio.h>
+
+int	main(void)
+{
+	char	str[] = "banana";
+	char	*result;
+
+	result = ft_memchr(str, 'a', 3);
+	if (result != NULL)
+		printf("result = %s\n", result);
+	else
+		printf("Character not found\n");
+	return (0);
+}
+*/
